@@ -28,7 +28,7 @@ require 'updatechanges.php';
                                     </div>
                                     <?php  }else{
                                        if (isset($_SESSION['success'])) {
-                                        echo $_SESSION['success'];
+                                        echo '<div style="color: green;">' . $_SESSION['success'] . '</div>';
                                     }
                                     }?>
                         <form method="post" action="">

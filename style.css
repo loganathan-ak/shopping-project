@@ -313,3 +313,7 @@ th {
 .material-icons {
     vertical-align: middle;
 }
+
+.error{
+    color: #ff1c1c;
+}
